@@ -12,6 +12,7 @@
 		671DC0191D349AE00047BD1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671DC0171D349ADF0047BD1A /* Main.storyboard */; };
 		671DC01B1D349AE00047BD1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 671DC01A1D349AE00047BD1A /* Assets.xcassets */; };
 		671DC01E1D349AE00047BD1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671DC01C1D349AE00047BD1A /* LaunchScreen.storyboard */; };
+		671DC0261D35F38C0047BD1A /* busoni-indiandiary-3-bertoli.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 671DC0251D35F38C0047BD1A /* busoni-indiandiary-3-bertoli.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		671DC01A1D349AE00047BD1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		671DC01D1D349AE00047BD1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		671DC01F1D349AE00047BD1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		671DC0251D35F38C0047BD1A /* busoni-indiandiary-3-bertoli.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "busoni-indiandiary-3-bertoli.mp3"; path = "../../../../Desktop/busoni-indiandiary-3-bertoli.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		671DC0121D349ADF0047BD1A /* workingWithAudio */ = {
 			isa = PBXGroup;
 			children = (
+				671DC0251D35F38C0047BD1A /* busoni-indiandiary-3-bertoli.mp3 */,
 				671DC0131D349ADF0047BD1A /* AppDelegate.swift */,
 				671DC0151D349ADF0047BD1A /* ViewController.swift */,
 				671DC0171D349ADF0047BD1A /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			files = (
 				671DC01E1D349AE00047BD1A /* LaunchScreen.storyboard in Resources */,
 				671DC01B1D349AE00047BD1A /* Assets.xcassets in Resources */,
+				671DC0261D35F38C0047BD1A /* busoni-indiandiary-3-bertoli.mp3 in Resources */,
 				671DC0191D349AE00047BD1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
