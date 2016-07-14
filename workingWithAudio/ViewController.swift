@@ -13,6 +13,24 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
+    @IBOutlet var slider: UISlider!
+    
+    @IBAction func play(sender: AnyObject) {
+        
+        player.play()
+        
+    }
+    @IBAction func pause(sender: AnyObject) {
+        
+        player.pause()
+        
+    }
+    
+    @IBAction func adjustVolume(sender: AnyObject) {
+        
+        player.volume = slider.value
+        
+    }
     // this will act as a controller for our music
     var player: AVAudioPlayer = AVAudioPlayer()
 
@@ -23,20 +41,20 @@ class ViewController: UIViewController {
         let audioPath = NSBundle.mainBundle().pathForResource("busoni-indiandiary-3-bertoli", ofType: "mp3")!
         
         do {
-        
+            
             // inserted path into player
             try player = AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: audioPath))
             
             // will only attempt to make player play, if try line above works
-            player.play()
+//            player.play()
             
-        // if we cannot run player, do something else
+            // if we cannot run player, do something else
         } catch {
-        
+            
             // Process error here
-        
+            
         }
-        
+
         
     }
 
